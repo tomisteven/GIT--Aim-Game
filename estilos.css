@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(85, 85, 248);
+    cursor: crosshair;
+}
+.contenedor{
+    padding: 0;
+    margin: auto;
+    width: 850px;
+    height: 850px;
+    ;
+    background: rgb(255, 198, 11);
+    border-bottom: 0px;
+    border:  8px solid rgb(255, 52, 245);
+}
+#player{
+    background: rgb(136, 136, 241);
+    border: 4px solid red;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    transition: .3s;
+}
+#player::after{
+    content: "";
+    background: rgb(255, 0, 0);
+    width: 25px;
+    height: 40px;
+    
+    
+}
+
+.pointer{
+    border-bottom: 0px;
+    background: rgb(3, 0, 0);
+    height: 50px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+}
+.titulos{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    margin: 15px;
+    border: solid aliceblue;
+    border-radius: 20px;
+    
+}
+.jugadores{
+    width: 850px;
+    height: 200px;
+    background: aliceblue;
+    margin-top: 50px;
+    margin-left: 590px;
+    background: rgb(148, 179, 238);
+    border: black solid 5px;
+    border-radius: 32px;
+    box-shadow: 5px 5px 5px 0.5px #0000008e;
+}
+.txt-jugadores{
+    margin: 10px;
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+    border: cornsilk solid;
+    border-radius: 40px;
+}
